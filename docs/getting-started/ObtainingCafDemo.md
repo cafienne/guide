@@ -30,7 +30,7 @@ There are  two methods to stop and/or remove the environment.
 After starting up the CaseFabric Demo environment, the following URL allow you to access the various parts of the environment:
 
 * CaseFabric IDE: http://localhost:2081
-* CaseFabric task user interface: http://localhost:8081
+* CaseFabric task user interface: http://localhost:3317
 * CaseFabric API (exposed through Swagger): http://localhost:2027
 * MailCatcher web UI: http://localhost:1080
 
