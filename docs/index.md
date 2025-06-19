@@ -17,6 +17,7 @@ At a glance, you can find the following topics.
         <li>[How to use the IDE](ide/overview)</li>
         <li>[How we built Engine](engine/overview)</li>
         <li>[Show me the API](api/overview)</li>
+        <li>[Mendix Add-On](mendix/overview)</li>
     </ul>
 </h3>
 

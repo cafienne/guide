@@ -45,6 +45,7 @@ const siteConfig = {
     { doc: 'engine/overview', label: 'CaseFabric Engine' },
     { doc: 'extensions/overview', label: 'Extensions' },
     { doc: 'api/overview', label: 'API Reference' },
+    { doc: 'mendix/overview', label: 'Mendix Add-On'},
     { doc: 'release/overview', label: 'Releases' }
   ],
 

@@ -51,6 +51,12 @@
          "api/query-cases-tasks",
          "api/case-file"
       ],
+      "Mendix Add-On": [
+         "mendix/overview",
+         "mendix/architecture",
+         "mendix/designmodels",
+         "mendix/usecases"
+      ],
       "Releases": [
          "release/overview",
          "release/1.1.34",

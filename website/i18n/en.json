@@ -144,6 +144,22 @@
         "title": "CaseFabric Reference Guide",
         "sidebar_label": "CaseFabric"
       },
+      "mendix/architecture": {
+        "title": "Mendix Dynamic Case Management Architecture",
+        "sidebar_label": "DCM Add-On Architecture"
+      },
+      "mendix/designmodels": {
+        "title": "Design Case Models in Mendix Studio Pro",
+        "sidebar_label": "Add models to your App"
+      },
+      "mendix/overview": {
+        "title": "Mendix Dynamic Case Management",
+        "sidebar_label": "Overview"
+      },
+      "mendix/usecases": {
+        "title": "Interact with Cases",
+        "sidebar_label": "Using in your App"
+      },
       "overview/product-overview": {
         "title": "CaseFabric Product Overview",
         "sidebar_label": "Product Overview"
@@ -308,6 +324,7 @@
       "CaseFabric Engine": "CaseFabric Engine",
       "Extensions": "Extensions",
       "API Reference": "API Reference",
+      "Mendix Add-On": "Mendix Add-On",
       "Releases": "Releases"
     },
     "categories": {
@@ -318,6 +335,7 @@
       "CaseFabric Engine": "CaseFabric Engine",
       "Extensions": "Extensions",
       "API Reference": "API Reference",
+      "Mendix Add-On": "Mendix Add-On",
       "Releases": "Releases"
     }
   },
