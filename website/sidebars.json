@@ -55,7 +55,8 @@
          "mendix/overview",
          "mendix/architecture",
          "mendix/designmodels",
-         "mendix/usecases"
+         "mendix/usecases",
+         "mendix/releases"
       ],
       "Releases": [
          "release/overview",
