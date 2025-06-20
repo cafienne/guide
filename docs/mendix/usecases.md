@@ -72,11 +72,22 @@ the Case Context or Task Context.
 
 ## Get a view of what has happened for a specific case instance
 
+The Case Engine is event sourced and it is possible to retrieve all the events of the case instance using the 
+'GetEvents' java action. This returns a CaseEventList that gives you the type of event and the raw data in a string. 
+The raw data is **always** a JSON structure that you could map to something specific if you wish. 
 
+Note that DEBUG events are also part of this log (when debug is set to true) allowing you to get a view on the internal
+logic executing an action on your case or human task instance.
 
 ## Transaction boundaries for Entities
 
-CommunityCommons.EndTransaction
+When you pass on entities to the case engine, the entities need to be fully committed and available in the database.
+See [DCM Architecture](architecture) for more information. 
 
 ## Use of the Task Queue
+
+Using the task queue is a decision available to the App developer. The case engine works with or without the Task Queue. 
+Note that when you want to create a case oriented user interface and make fully use of the case functionality, you need
+to run without Task Queue. When your process is fully async and there is no direct effect on the user interface, the
+Task Queue is a good option.
 
