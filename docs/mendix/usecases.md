@@ -13,7 +13,7 @@ First of all, you need to add the DCM Startup Flow to the 'After Startup' App se
 The java action to be added to your startup flow can be found in the toolbox underneath the Case management
 section and is called 'Case management startup'.
 
-After [deploying the model](designmodels) you are able to use the 'Start case' action in order to start execution
+After [deploying the model](designmodels#deploy-the-model) you are able to use the 'Start case' action in order to start execution
 of the case model deployed. 
 
 When the case has started, there will be a caseInstanceId that allows you to interact with that specific case. 
